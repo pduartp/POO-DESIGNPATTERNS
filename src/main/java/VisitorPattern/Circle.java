@@ -4,8 +4,8 @@
  */
 package VisitorPattern;
 
-import VisitorPattern.Interfaces.Visitor;
-import VisitorPattern.Interfaces.Element;
+import VisitorPattern.Interface.Visitor;
+import VisitorPattern.Interface.Element;
 
 /**
  *

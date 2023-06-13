@@ -2,10 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package VisitorPattern.ConcreteClasses;
+package VisitorPattern.ConcreteVisitorClasses;
 
 import VisitorPattern.Circle;
-import VisitorPattern.Interfaces.Visitor;
+import VisitorPattern.Interface.Visitor;
 import VisitorPattern.Rectangle;
 
 /**
