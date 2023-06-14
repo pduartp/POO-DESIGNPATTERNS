@@ -23,7 +23,7 @@ public class Program {
     };
 
     public static void main(String[] args) {
-        // Visitor
+        //<editor-fold defaultstate="collapsed" desc="VISITOR">
         System.out.println("\t\t<< Visitor >>");
 
         // Criando instâncias de objetos geométricos
@@ -42,9 +42,10 @@ public class Program {
         circle.accept(perimeterVisitor);
         rectangle.accept(perimeterVisitor);
 
-        // FlyWeight               
+//</editor-fold>            
+        //<editor-fold defaultstate="collapsed" desc="FlyWeight">
         System.out.println("\t\t<< FlyWeight >>");
-        
+
         // Cria 20 círculos com cores e posições aleatórias
         for (int i = 0; i < 20; i++)
         {
@@ -55,6 +56,7 @@ public class Program {
             circle2.draw();
         }
 
+//</editor-fold>
     }
 
     private static String getRandomColor() {
